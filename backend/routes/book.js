@@ -4,7 +4,7 @@ const router = express.Router();
 const auth = require('../middleware/auth');
 const multer = require('../middleware/multer');
 
-const {getAllBooks, getBestRatedBooks, getBook, addBook, updateBook, deleteBook, addRating} = require('../controllers/stuff');
+const {getAllBooks, getBestRatedBooks, getBook, addBook, updateBook, deleteBook, addRating} = require('../controllers/book');
 const {compressImages} = require("../middleware/compress");
 
 router.get('/', getAllBooks);

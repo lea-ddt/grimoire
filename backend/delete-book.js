@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Book = require('./models/Thing');
+const Book = require('./models/Book');
 
 mongoose.connect('mongodb+srv://lea-dudit:leadudit@cluster0.uh3pcqg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',)
   .then(async () => {
